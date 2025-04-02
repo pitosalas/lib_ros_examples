@@ -1,0 +1,22 @@
+running egg_info
+writing build/lib_ros_examples/lib_ros_examples.egg-info/PKG-INFO
+writing dependency_links to build/lib_ros_examples/lib_ros_examples.egg-info/dependency_links.txt
+writing entry points to build/lib_ros_examples/lib_ros_examples.egg-info/entry_points.txt
+writing requirements to build/lib_ros_examples/lib_ros_examples.egg-info/requires.txt
+writing top-level names to build/lib_ros_examples/lib_ros_examples.egg-info/top_level.txt
+reading manifest file 'build/lib_ros_examples/lib_ros_examples.egg-info/SOURCES.txt'
+writing manifest file 'build/lib_ros_examples/lib_ros_examples.egg-info/SOURCES.txt'
+running build
+running build_py
+copying lib_ros_examples/square_drive.py -> /home/pitosalas/linorobot2_ws/src/lib_ros_examples/build/lib_ros_examples/build/lib/lib_ros_examples
+running install
+running install_lib
+copying /home/pitosalas/linorobot2_ws/src/lib_ros_examples/build/lib_ros_examples/build/lib/lib_ros_examples/square_drive.py -> /home/pitosalas/linorobot2_ws/src/lib_ros_examples/install/lib_ros_examples/lib/python3.12/site-packages/lib_ros_examples
+byte-compiling /home/pitosalas/linorobot2_ws/src/lib_ros_examples/install/lib_ros_examples/lib/python3.12/site-packages/lib_ros_examples/square_drive.py to square_drive.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/pitosalas/linorobot2_ws/src/lib_ros_examples/install/lib_ros_examples/lib/python3.12/site-packages/lib_ros_examples-0.0.1-py3.12.egg-info' (and everything under it)
+Copying build/lib_ros_examples/lib_ros_examples.egg-info to /home/pitosalas/linorobot2_ws/src/lib_ros_examples/install/lib_ros_examples/lib/python3.12/site-packages/lib_ros_examples-0.0.1-py3.12.egg-info
+running install_scripts
+Installing square_drive script to /home/pitosalas/linorobot2_ws/src/lib_ros_examples/install/lib_ros_examples/lib/lib_ros_examples
+writing list of installed files to '/home/pitosalas/linorobot2_ws/src/lib_ros_examples/build/lib_ros_examples/install.log'

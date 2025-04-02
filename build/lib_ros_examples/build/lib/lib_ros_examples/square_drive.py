@@ -90,15 +90,15 @@ class SquareDriveNode(Node):
 
     def calculate_cmd_vel_turn(self):
         # angle = math.atan2(self.current_y - self.start_y, self.current_x - self.start_x)
-        goal_angle = self.start_yaw + math.pi
-        angle_diff = self.current_yaw - goal_angle
+        angle = self.current_yaw
+        angle_diff = angle - self.start_yaw
         print(
-            f"yaw start={math.degrees(self.start_yaw):.2f}, "
-            f"curr={math.degrees(self.current_yaw):.2f}, "
-            f"diff={math.degrees(angle_diff):.2f}, "
-            f"goal={math.degrees(goal_angle):.2f}, "
+            f"start_yaw={math.degrees(self.start_yaw):.2f}, "
+            f"current_yaw={math.degrees(self.current_yaw):.2f}, "
+            f"angle_diff={math.degrees(angle_diff):.2f}, "
+            f"angle={math.degrees(angle):.2f} "
         )
-        if abs(angle_diff) > 0.2:
+        if abs(angle_diff) > 0.1:
             self.linear_x = 0.0
             self.angular = 0.8 * angle_diff / abs(angle_diff)
         else:

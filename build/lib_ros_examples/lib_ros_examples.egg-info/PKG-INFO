@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: lib-ros-examples
+Version: 0.0.1
+Summary: Example ROS 2 package for driving in a square and circle.
+Maintainer: Your Name
+Maintainer-email: your_email@example.com
+License: Apache License 2.0

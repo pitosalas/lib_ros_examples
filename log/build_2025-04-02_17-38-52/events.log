@@ -1,0 +1,133 @@
+[0.000000] (-) TimerEvent: {}
+[0.002230] (lib_ros_examples) JobQueued: {'identifier': 'lib_ros_examples', 'dependencies': OrderedDict()}
+[0.004289] (lib_ros_examples) JobStarted: {'identifier': 'lib_ros_examples'}
+[0.098106] (-) TimerEvent: {}
+[0.198883] (-) TimerEvent: {}
+[0.301010] (-) TimerEvent: {}
+[0.401777] (-) TimerEvent: {}
+[0.502964] (-) TimerEvent: {}
+[0.603881] (-) TimerEvent: {}
+[0.704701] (-) TimerEvent: {}
+[0.805554] (-) TimerEvent: {}
+[0.906442] (-) TimerEvent: {}
+[1.007805] (-) TimerEvent: {}
+[1.108651] (-) TimerEvent: {}
+[1.209944] (-) TimerEvent: {}
+[1.310646] (-) TimerEvent: {}
+[1.411393] (-) TimerEvent: {}
+[1.512138] (-) TimerEvent: {}
+[1.612881] (-) TimerEvent: {}
+[1.713535] (-) TimerEvent: {}
+[1.814462] (-) TimerEvent: {}
+[1.915273] (-) TimerEvent: {}
+[2.017370] (-) TimerEvent: {}
+[2.118613] (-) TimerEvent: {}
+[2.223036] (-) TimerEvent: {}
+[2.325324] (-) TimerEvent: {}
+[2.429020] (-) TimerEvent: {}
+[2.529990] (-) TimerEvent: {}
+[2.632517] (-) TimerEvent: {}
+[2.734563] (-) TimerEvent: {}
+[2.837131] (-) TimerEvent: {}
+[2.939236] (-) TimerEvent: {}
+[3.039994] (-) TimerEvent: {}
+[3.140829] (-) TimerEvent: {}
+[3.242602] (-) TimerEvent: {}
+[3.345187] (-) TimerEvent: {}
+[3.445886] (-) TimerEvent: {}
+[3.546635] (-) TimerEvent: {}
+[3.648503] (-) TimerEvent: {}
+[3.749457] (-) TimerEvent: {}
+[3.850101] (-) TimerEvent: {}
+[3.950659] (-) TimerEvent: {}
+[4.051312] (-) TimerEvent: {}
+[4.152007] (-) TimerEvent: {}
+[4.252554] (-) TimerEvent: {}
+[4.353171] (-) TimerEvent: {}
+[4.453730] (-) TimerEvent: {}
+[4.554470] (-) TimerEvent: {}
+[4.655530] (-) TimerEvent: {}
+[4.756214] (-) TimerEvent: {}
+[4.856814] (-) TimerEvent: {}
+[4.957554] (-) TimerEvent: {}
+[5.058416] (-) TimerEvent: {}
+[5.159178] (-) TimerEvent: {}
+[5.259742] (-) TimerEvent: {}
+[5.360374] (-) TimerEvent: {}
+[5.461046] (-) TimerEvent: {}
+[5.561753] (-) TimerEvent: {}
+[5.663051] (-) TimerEvent: {}
+[5.763674] (-) TimerEvent: {}
+[5.864422] (-) TimerEvent: {}
+[5.965741] (-) TimerEvent: {}
+[6.066523] (-) TimerEvent: {}
+[6.167173] (-) TimerEvent: {}
+[6.267799] (-) TimerEvent: {}
+[6.368406] (-) TimerEvent: {}
+[6.469378] (-) TimerEvent: {}
+[6.570200] (-) TimerEvent: {}
+[6.670883] (-) TimerEvent: {}
+[6.771639] (-) TimerEvent: {}
+[6.872784] (-) TimerEvent: {}
+[6.917378] (lib_ros_examples) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', 'build/lib_ros_examples', 'build', '--build-base', '/home/pitosalas/linorobot2_ws/src/lib_ros_examples/build/lib_ros_examples/build', 'install', '--record', '/home/pitosalas/linorobot2_ws/src/lib_ros_examples/build/lib_ros_examples/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/pitosalas/linorobot2_ws/src/lib_ros_examples', 'env': {'LINOROBOT2_BASE': '2wd', 'USER': 'pitosalas', 'SSH_CLIENT': '192.168.5.76 62465 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/pitosalas/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/git/dist/askpass.sh', 'MCFLY_HISTFILE': '/home/pitosalas/.bash_history', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/pitosalas/uros_ws/install/micro_ros_agent/lib:/home/pitosalas/uros_ws/install/micro_ros_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/pitosalas/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/bin/helpers/browser.sh', 'HOME': '/home/pitosalas', 'MCFLY_HISTORY': '/tmp/mcfly.6BI5smKn', 'TERM_PROGRAM_VERSION': '1.98.2', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-c0a61674-cabd-45eb-ab2e-1348d8de0b5c.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/pitosalas/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/extensions/git/dist/askpass-main.js', 'PS1': '\\[\x1b]633;A\x07\\][\\h:\\w] \\[\x1b]633;B\x07\\]', 'VSCODE_GIT_ASKPASS_NODE': '/home/pitosalas/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/home/pitosalas/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-arm64/bundled/libs/debugpy', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/pitosalas/linorobot2_ws/install:/home/pitosalas/uros_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pitosalas', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'HISTCONTROL': 'ignorespace', 'PATH': '/home/pitosalas/.vscode-server/bin/ddc367ed5c8936efe395cffeec279b04ffd7db78/bin/remote-cli:/home/pitosalas/.local/bin:/home/pitosalas/.local/bin:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/pitosalas/.local/bin:/home/pitosalas/.platformio/penv/bin:/home/pitosalas/.local/bin:/home/pitosalas/.platformio/penv/bin:/home/pitosalas/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-arm64/bundled/scripts/noConfigScripts:/home/pitosalas/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/home/pitosalas/.local/bin:/home/pitosalas/.platformio/penv/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/home/pitosalas/.vscode-server/extensions/ms-python.debugpy-2025.4.1-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-af4cf4759f65861c.txt', 'LANG': 'en_US.UTF-8', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-61028c1511.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/pitosalas/linorobot2_ws/install/status_panel:/home/pitosalas/linorobot2_ws/install/micro_ros_setup:/home/pitosalas/linorobot2_ws/install/linorobot2_navigation:/home/pitosalas/linorobot2_ws/install/linorobot2_gazebo:/home/pitosalas/linorobot2_ws/install/dome:/home/pitosalas/linorobot2_ws/install/linorobot2_description:/home/pitosalas/linorobot2_ws/install/linorobot2_bringup:/home/pitosalas/linorobot2_ws/install/linorobot2_base:/home/pitosalas/linorobot2_ws/install/linorobot2:/home/pitosalas/linorobot2_ws/install/lib_ros_examples:/home/pitosalas/linorobot2_ws/install/imu_calib:/home/pitosalas/linorobot2_ws/install/hls_lfcd_lds_driver:/home/pitosalas/uros_ws/install/micro_ros_agent:/home/pitosalas/uros_ws/install/micro_ros_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/pitosalas/linorobot2_ws/src/lib_ros_examples/build/lib_ros_examples', 'MCFLY_SESSION_ID': 'Wi0IzmsrgWH8fEPKjkZ96VZz', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.5.76 62465 192.168.5.118 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'LINOROBOT2_DEPTH_SENSOR': '', 'PYTHONPATH': '/home/pitosalas/linorobot2_ws/src/lib_ros_examples/build/lib_ros_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pitosalas/linorobot2_ws/src/lib_ros_examples/install/lib_ros_examples/lib/python3.12/site-packages:/home/pitosalas/linorobot2_ws/install/status_panel/lib/python3.12/site-packages:/home/pitosalas/linorobot2_ws/install/linorobot2_gazebo/lib/python3.12/site-packages:/home/pitosalas/linorobot2_ws/install/dome/lib/python3.12/site-packages:/home/pitosalas/linorobot2_ws/install/lib_ros_examples/lib/python3.12/site-packages:/home/pitosalas/uros_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'LINOROBOT2_LASER_SENSOR': '', 'CMAKE_PREFIX_PATH': '/home/pitosalas/linorobot2_ws/install/micro_ros_setup:/home/pitosalas/linorobot2_ws/install/linorobot2_navigation:/home/pitosalas/linorobot2_ws/install/linorobot2_gazebo:/home/pitosalas/linorobot2_ws/install/linorobot2_description:/home/pitosalas/linorobot2_ws/install/linorobot2_bringup:/home/pitosalas/linorobot2_ws/install/linorobot2_base:/home/pitosalas/linorobot2_ws/install/linorobot2:/home/pitosalas/linorobot2_ws/install/imu_calib:/home/pitosalas/linorobot2_ws/install/hls_lfcd_lds_driver:/home/pitosalas/uros_ws/install/micro_ros_agent:/home/pitosalas/uros_ws/install/micro_ros_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor', 'ROS2_WS': 'linorobot2_ws'}, 'shell': False}
+[6.972954] (-) TimerEvent: {}
+[7.074415] (-) TimerEvent: {}
+[7.175157] (-) TimerEvent: {}
+[7.275909] (-) TimerEvent: {}
+[7.376476] (-) TimerEvent: {}
+[7.477092] (-) TimerEvent: {}
+[7.577902] (-) TimerEvent: {}
+[7.678584] (-) TimerEvent: {}
+[7.779249] (-) TimerEvent: {}
+[7.880333] (-) TimerEvent: {}
+[7.981112] (-) TimerEvent: {}
+[8.081743] (-) TimerEvent: {}
+[8.182365] (-) TimerEvent: {}
+[8.282969] (-) TimerEvent: {}
+[8.383629] (-) TimerEvent: {}
+[8.484234] (-) TimerEvent: {}
+[8.584786] (-) TimerEvent: {}
+[8.631523] (lib_ros_examples) StdoutLine: {'line': b'running egg_info\n'}
+[8.684959] (-) TimerEvent: {}
+[8.772920] (lib_ros_examples) StdoutLine: {'line': b'writing build/lib_ros_examples/lib_ros_examples.egg-info/PKG-INFO\n'}
+[8.775179] (lib_ros_examples) StdoutLine: {'line': b'writing dependency_links to build/lib_ros_examples/lib_ros_examples.egg-info/dependency_links.txt\n'}
+[8.777963] (lib_ros_examples) StdoutLine: {'line': b'writing entry points to build/lib_ros_examples/lib_ros_examples.egg-info/entry_points.txt\n'}
+[8.779095] (lib_ros_examples) StdoutLine: {'line': b'writing requirements to build/lib_ros_examples/lib_ros_examples.egg-info/requires.txt\n'}
+[8.779717] (lib_ros_examples) StdoutLine: {'line': b'writing top-level names to build/lib_ros_examples/lib_ros_examples.egg-info/top_level.txt\n'}
+[8.785117] (-) TimerEvent: {}
+[8.885719] (-) TimerEvent: {}
+[8.986340] (-) TimerEvent: {}
+[9.071653] (lib_ros_examples) StdoutLine: {'line': b"reading manifest file 'build/lib_ros_examples/lib_ros_examples.egg-info/SOURCES.txt'\n"}
+[9.074006] (lib_ros_examples) StdoutLine: {'line': b"writing manifest file 'build/lib_ros_examples/lib_ros_examples.egg-info/SOURCES.txt'\n"}
+[9.075037] (lib_ros_examples) StdoutLine: {'line': b'running build\n'}
+[9.076092] (lib_ros_examples) StdoutLine: {'line': b'running build_py\n'}
+[9.076563] (lib_ros_examples) StdoutLine: {'line': b'copying lib_ros_examples/square_drive.py -> /home/pitosalas/linorobot2_ws/src/lib_ros_examples/build/lib_ros_examples/build/lib/lib_ros_examples\n'}
+[9.077192] (lib_ros_examples) StdoutLine: {'line': b'running install\n'}
+[9.086500] (-) TimerEvent: {}
+[9.103038] (lib_ros_examples) StdoutLine: {'line': b'running install_lib\n'}
+[9.186649] (-) TimerEvent: {}
+[9.241208] (lib_ros_examples) StdoutLine: {'line': b'copying /home/pitosalas/linorobot2_ws/src/lib_ros_examples/build/lib_ros_examples/build/lib/lib_ros_examples/square_drive.py -> /home/pitosalas/linorobot2_ws/src/lib_ros_examples/install/lib_ros_examples/lib/python3.12/site-packages/lib_ros_examples\n'}
+[9.244752] (lib_ros_examples) StdoutLine: {'line': b'byte-compiling /home/pitosalas/linorobot2_ws/src/lib_ros_examples/install/lib_ros_examples/lib/python3.12/site-packages/lib_ros_examples/square_drive.py to square_drive.cpython-312.pyc\n'}
+[9.251577] (lib_ros_examples) StdoutLine: {'line': b'running install_data\n'}
+[9.252653] (lib_ros_examples) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.286802] (-) TimerEvent: {}
+[9.387516] (-) TimerEvent: {}
+[9.389429] (lib_ros_examples) StdoutLine: {'line': b"removing '/home/pitosalas/linorobot2_ws/src/lib_ros_examples/install/lib_ros_examples/lib/python3.12/site-packages/lib_ros_examples-0.0.1-py3.12.egg-info' (and everything under it)\n"}
+[9.391326] (lib_ros_examples) StdoutLine: {'line': b'Copying build/lib_ros_examples/lib_ros_examples.egg-info to /home/pitosalas/linorobot2_ws/src/lib_ros_examples/install/lib_ros_examples/lib/python3.12/site-packages/lib_ros_examples-0.0.1-py3.12.egg-info\n'}
+[9.398514] (lib_ros_examples) StdoutLine: {'line': b'running install_scripts\n'}
+[9.487674] (-) TimerEvent: {}
+[9.588384] (-) TimerEvent: {}
+[9.689943] (-) TimerEvent: {}
+[9.790576] (-) TimerEvent: {}
+[9.891603] (-) TimerEvent: {}
+[9.992243] (-) TimerEvent: {}
+[10.092813] (-) TimerEvent: {}
+[10.193471] (-) TimerEvent: {}
+[10.294156] (-) TimerEvent: {}
+[10.328931] (lib_ros_examples) StdoutLine: {'line': b'Installing square_drive script to /home/pitosalas/linorobot2_ws/src/lib_ros_examples/install/lib_ros_examples/lib/lib_ros_examples\n'}
+[10.330656] (lib_ros_examples) StdoutLine: {'line': b"writing list of installed files to '/home/pitosalas/linorobot2_ws/src/lib_ros_examples/build/lib_ros_examples/install.log'\n"}
+[10.394413] (-) TimerEvent: {}
+[10.488039] (lib_ros_examples) CommandEnded: {'returncode': 0}
+[10.494693] (-) TimerEvent: {}
+[10.537924] (lib_ros_examples) JobEnded: {'identifier': 'lib_ros_examples', 'rc': 0}
+[10.541967] (-) EventReactorShutdown: {}

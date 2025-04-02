@@ -1,0 +1,2 @@
+[console_scripts]
+square_drive = lib_ros_examples.square_drive:main

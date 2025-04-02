@@ -1,0 +1,24 @@
+[5.759s] Invoking command in '/home/pitosalas/linorobot2_ws/src/lib_ros_examples': PYTHONPATH=/home/pitosalas/linorobot2_ws/src/lib_ros_examples/build/lib_ros_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pitosalas/linorobot2_ws/src/lib_ros_examples/install/lib_ros_examples/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/lib_ros_examples build --build-base /home/pitosalas/linorobot2_ws/src/lib_ros_examples/build/lib_ros_examples/build install --record /home/pitosalas/linorobot2_ws/src/lib_ros_examples/build/lib_ros_examples/install.log --single-version-externally-managed install_data
+[7.493s] running egg_info
+[7.636s] writing build/lib_ros_examples/lib_ros_examples.egg-info/PKG-INFO
+[7.639s] writing dependency_links to build/lib_ros_examples/lib_ros_examples.egg-info/dependency_links.txt
+[7.642s] writing entry points to build/lib_ros_examples/lib_ros_examples.egg-info/entry_points.txt
+[7.643s] writing requirements to build/lib_ros_examples/lib_ros_examples.egg-info/requires.txt
+[7.644s] writing top-level names to build/lib_ros_examples/lib_ros_examples.egg-info/top_level.txt
+[7.922s] reading manifest file 'build/lib_ros_examples/lib_ros_examples.egg-info/SOURCES.txt'
+[7.926s] writing manifest file 'build/lib_ros_examples/lib_ros_examples.egg-info/SOURCES.txt'
+[7.927s] running build
+[7.928s] running build_py
+[7.928s] copying lib_ros_examples/square_drive.py -> /home/pitosalas/linorobot2_ws/src/lib_ros_examples/build/lib_ros_examples/build/lib/lib_ros_examples
+[7.931s] running install
+[7.955s] running install_lib
+[8.085s] copying /home/pitosalas/linorobot2_ws/src/lib_ros_examples/build/lib_ros_examples/build/lib/lib_ros_examples/square_drive.py -> /home/pitosalas/linorobot2_ws/src/lib_ros_examples/install/lib_ros_examples/lib/python3.12/site-packages/lib_ros_examples
+[8.089s] byte-compiling /home/pitosalas/linorobot2_ws/src/lib_ros_examples/install/lib_ros_examples/lib/python3.12/site-packages/lib_ros_examples/square_drive.py to square_drive.cpython-312.pyc
+[8.096s] running install_data
+[8.098s] running install_egg_info
+[8.266s] removing '/home/pitosalas/linorobot2_ws/src/lib_ros_examples/install/lib_ros_examples/lib/python3.12/site-packages/lib_ros_examples-0.0.1-py3.12.egg-info' (and everything under it)
+[8.269s] Copying build/lib_ros_examples/lib_ros_examples.egg-info to /home/pitosalas/linorobot2_ws/src/lib_ros_examples/install/lib_ros_examples/lib/python3.12/site-packages/lib_ros_examples-0.0.1-py3.12.egg-info
+[8.276s] running install_scripts
+[9.207s] Installing square_drive script to /home/pitosalas/linorobot2_ws/src/lib_ros_examples/install/lib_ros_examples/lib/lib_ros_examples
+[9.209s] writing list of installed files to '/home/pitosalas/linorobot2_ws/src/lib_ros_examples/build/lib_ros_examples/install.log'
+[9.373s] Invoked command in '/home/pitosalas/linorobot2_ws/src/lib_ros_examples' returned '0': PYTHONPATH=/home/pitosalas/linorobot2_ws/src/lib_ros_examples/build/lib_ros_examples/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pitosalas/linorobot2_ws/src/lib_ros_examples/install/lib_ros_examples/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/lib_ros_examples build --build-base /home/pitosalas/linorobot2_ws/src/lib_ros_examples/build/lib_ros_examples/build install --record /home/pitosalas/linorobot2_ws/src/lib_ros_examples/build/lib_ros_examples/install.log --single-version-externally-managed install_data
