@@ -1,0 +1,9 @@
+launch:
+  - node:
+      package: lib_ros_examples
+      executable: square_drive
+      name: square_drive_node
+      output: screen
+      parameters:
+        - square_size: 1.0  # Default parameter value
+        - circle_radius: 1.0  # Default parameter value
