@@ -1,0 +1,3 @@
+<launch>
+      <node pkg="rpsexamples" name="wallfollower" type="wallfollow.py" output="screen"  />
+</launch>

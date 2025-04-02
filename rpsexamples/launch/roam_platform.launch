@@ -1,0 +1,4 @@
+<launch>
+      <node pkg="rpsexamples" name="bullet" type="wanderplatform.py" output="screen" required="true" />
+      <node pkg="rpsexamples" name="smartlidar" type="smartlidar.py" output="screen" required="true"/>
+</launch>

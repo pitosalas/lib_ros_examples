@@ -1,0 +1,4 @@
+<launch>
+     <node pkg="rpsexamples" name="monitor" type="rgmonitor.py" output="screen" required="true" />
+     <node pkg="rpsexamples" name="control" type="rgserver.py" output="screen" required="true" />
+</launch>

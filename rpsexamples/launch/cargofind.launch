@@ -1,0 +1,4 @@
+<launch>
+    <include file="$(find minirover)/launch/mr_rviz.launch" />
+    <node pkg="rpsexamples" name="object_find" type="object_find.py" respawn="false" output="screen" />    
+</launch>

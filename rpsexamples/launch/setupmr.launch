@@ -1,0 +1,4 @@
+<launch>
+    <include file="$(find minirover)/launch/mr_rviz.launch" />
+    <node pkg="rpsexamples" name="smartsensor" type="smartsensor.py" respawn="false" output="screen" />
+</launch>

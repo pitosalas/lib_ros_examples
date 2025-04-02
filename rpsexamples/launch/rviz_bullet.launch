@@ -1,0 +1,17 @@
+<launch>
+  <!-- Robot URDF definition -->
+  <arg name="urdf_file" default="$(find xacro)/xacro --inorder '$(find rpsexamples)/urdf/bullet.urdf'"/>
+  <param name="robot_description" command="$(arg urdf_file) 
+                distance:=true
+                pi_camera:=true
+                lds:=true
+                imu:=true "/>
+
+  <!-- Send joint values -->
+  <!-- <node pkg="joint_state_publisher" type="joint_state_publisher" name="joint_state_publisher">
+  </node>
+   -->
+  <!-- Combine joint values to TF-->
+  <node name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher"/>
+
+</launch>

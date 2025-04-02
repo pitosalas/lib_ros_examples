@@ -1,0 +1,4 @@
+<launch>
+    <!-- <node name="stroller_control" pkg="prrexamples" type="stroller_control.py" respawn="false" output="screen" /> -->
+    <node name="smartsensor" pkg="rpsexamples" type="smartsensor.py" respawn="false" output="screen" />
+</launch>
