@@ -23,7 +23,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'square_drive = lib_ros_examples.src.square_drive:main',
+            'square_drive = lib_ros_examples.square_drive:main',
         ],
     },
 )
