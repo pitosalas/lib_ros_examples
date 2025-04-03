@@ -4,6 +4,7 @@ from geometry_msgs.msg import Twist
 from nav_msgs.msg import Odometry
 from rclpy.qos import QoSProfile
 from tf_transformations import euler_from_quaternion
+import lib_ros_examples.bru_utils
 import math
 
 
@@ -79,7 +80,7 @@ class SquareDriveNode(Node):
             (self.current_x - self.start_x) ** 2 + (self.current_y - self.start_y) ** 2
         )
         if distance < self.square_size:
-            self.linear_x = 0.2
+            self.linear_x = 0.5
             self.angular = 0.0
         else:
             self.linear_x = 0.0
@@ -90,8 +91,8 @@ class SquareDriveNode(Node):
 
     def calculate_cmd_vel_turn(self):
         # angle = math.atan2(self.current_y - self.start_y, self.current_x - self.start_x)
-        goal_angle = self.start_yaw + math.pi
-        angle_diff = self.current_yaw - goal_angle
+        goal_angle = self.start_yaw + math.pi/2.0
+        angle_diff = lib_ros_examples.bru_utils.normalize_angle(self.current_yaw - goal_angle)
         print(
             f"yaw start={math.degrees(self.start_yaw):.2f}, "
             f"curr={math.degrees(self.current_yaw):.2f}, "
@@ -100,11 +101,12 @@ class SquareDriveNode(Node):
         )
         if abs(angle_diff) > 0.2:
             self.linear_x = 0.0
-            self.angular = 0.8 * angle_diff / abs(angle_diff)
+            self.angular = 0.8
         else:
             self.linear_x = 0.0
             self.angular = 0.0
             self.state = "straight"
+            self.save_starting_odom()
             self.get_logger().info("Turn completed, moving to next side.")
 
     def run(self):

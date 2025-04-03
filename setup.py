@@ -18,7 +18,7 @@ setup(
     zip_safe=True,
     maintainer='Your Name',
     maintainer_email='your_email@example.com',
-    description='Example ROS 2 package for driving in a square and circle.',
+    description='Example ROS 2 packages.',
     license='Apache License 2.0',
     tests_require=['pytest'],
     entry_points={
